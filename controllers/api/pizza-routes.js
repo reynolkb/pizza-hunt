@@ -14,7 +14,7 @@ const {
     createPizza,
     updatePizza,
     deletePizza
-} = require('../controllers/pizza-controller');
+} = require('../pizza-controller');
 
 // Set up GET all and POST at /api/pizzas
 router
