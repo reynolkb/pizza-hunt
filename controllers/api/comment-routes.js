@@ -5,6 +5,7 @@ const { addComment, removeComment } = require('../../controllers/comment-control
 router.route('/:pizzaId').post(addComment);
 
 // /api/comments/<pizzaId>/<commentId>
+console.log(body, params);
 router.route('/:pizzaId/:commentId').delete(removeComment);
 
 module.exports = router;
